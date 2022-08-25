@@ -821,6 +821,13 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.portfolio-row img
+{
+    width: 320px;
+    height: 320px;
+}
+
+
 
 @media (max-width: 1024px) {
     .bloc {
