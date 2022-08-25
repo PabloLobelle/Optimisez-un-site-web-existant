@@ -7,6 +7,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -154,7 +156,7 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(207, 8, 134);
 }
 
 .d-bloc .btn-wire,
@@ -253,7 +255,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(202, 12, 154, 0.6);
 }
 
 .d-bloc .panel .btn-wire,
@@ -347,7 +349,7 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgb(207, 13, 169);
     width: 26px;
 }
 
@@ -677,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -771,20 +773,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #421400;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:#ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #421400;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #421400!important;
     color: #FFFFFF!important;
 }
 
@@ -797,11 +799,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #421400!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #000000!important;
 }
 
 .icon-dark-slate-blue {
@@ -818,12 +820,19 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
+    opacity: 0.3;
+}
+
+.bloc-lg
+{
+    opacity: initial;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
